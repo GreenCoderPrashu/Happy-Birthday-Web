@@ -1,0 +1,37 @@
+// Welcome Page...
+const typing = document.getElementById('typing');
+const typeBtn= document.getElementById('Btn');
+const Song= document.getElementById('Song');
+const passage = "Wish You Many More Happy Returns Of The Day Tom... Stay Happy With All Your Favoriote Things! May This Year Bring You Joy,Succes,And Advanture... And I Always Wish You To Be Happy...";
+let type=""
+let write = false;
+let i=0;
+typeBtn.addEventListener('click',() => {
+    if(! write){
+        write = true;
+        typewriter();
+        Song.play();
+    }
+});
+function typewriter(){
+    if(i<passage.length){
+        typing.innerHTML += passage.charAt(i);
+        i++;
+        setTimeout(typewriter,80);
+    }else{
+    write = false;
+    i=0;
+    type=""
+}
+}
+//  Welcome Page Functions...
+function Show() {
+    document.getElementById('Welcome').style.display = 'none';
+    document.getElementById('Wish-Container').style.display = 'block';
+}
+const TqBtn = document.getElementById('Tq-Btn');
+Btn.addEventListener('click',() =>{
+    setTimeout(() =>{
+        TqBtn.style.display = 'block';
+    },16000);
+});
