@@ -1,0 +1,79 @@
+/* Style For Structure Page  */
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    animation: Bg 10s infinite;
+}
+@keyframes Bg {
+    0%{ background-color: #ff00d4; }
+    25%{ background-color: #fbff00; }
+    50%{ background-color: #00ffe5e6; }
+    75%{ background-color: #00a2ff; }
+    100%{ background-color: #ff00d4; }
+}
+#Welcome{
+    text-align: center;
+    padding-top: 50px;
+    font-family: monospace;
+}
+.Hello{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+#Welcome p{
+    font-family: cursive;
+}
+.Logo{
+    position: relative;
+    height: 80px;
+    width: 80px;
+    transform: rotate(0deg);
+    animation: Logo 3s alternate-reverse infinite;
+}
+@keyframes Logo{
+    100%{
+        transform: rotate(-360deg);
+    }
+}
+.Img{
+    padding: 25px;
+}
+#Welcome button{
+    padding: 8px;
+    margin-top: 20px;
+    border-radius: 20px;
+    font-family: cursive;
+    box-shadow: 0 0 10px #000000;
+    font-weight: 400;
+}
+#Welcome button:hover{
+    box-shadow: 0 0 20px #000000;
+}
+.Wish{
+    font-size: 40px;
+    font-family: cursive;
+    color: #ff0000;
+}
+#Wish-Container{
+    padding: 20px;
+    margin: 20px;
+    background-color: antiquewhite;
+    border-radius: 5px 30px;
+    box-shadow: 0 0 10px #000000;
+    text-align: center;
+}
+#Tq-Btn{
+    border-radius: 10px ;
+    box-shadow: 0 0 10px #000000;
+    padding: 15px;
+    margin-top: 50px;
+    font-family: cursive;
+    font-weight: 400;
+    left: 20%;
+    color: #ff00bb;
+}
