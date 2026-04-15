@@ -3,9 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Happy Brithday</title>
+    <link rel="stylesheet" href="Assets/Documents/Style.css">
+    <link rel="icon" type="png" href="./Assets/Images/Logo.png">
 </head>
 <body>
+    <div id="Welcome">
+        <div class="img">
+            <img src="./Assets/Images/Logo.png" alt="PRASHU's Logo" class="Logo">
+        </div>
+        <h2 class="Hello">Hello Tom!!!</h2>
+        <p>You Have Some Surprise... </p>
+        <audio id="Song" src="./Assets/Audio/Song.mp3" style="display: none;" loop></audio>
+        <button id="Btn" onclick="Show()">View Surprise...</button>
+    </div>
+
+    <div id="Wish-Container" style="display: none;">
+        <p id="typing" class="Wish"></p>
+        <button id="Tq-Btn" onclick="ShowPage1()" style="display: none;">Thank You...</button>
+    </div>
     
 </body>
+<script src="Assets/Documents/Script.js"></script>
 </html>
