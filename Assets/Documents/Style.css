@@ -77,3 +77,32 @@ body{
     left: 20%;
     color: #ff00bb;
 }
+#Page1{
+    height: 100vh;
+    background-color: #000000;
+}
+#Light-Btn{
+    color: #ffff;
+    background-color: transparent;
+    border-radius: 8px ;
+    box-shadow: 0 0 10px #ff0090;
+    box-shadow: 0 0 20px #ff0090;
+    padding: 30px;
+    font-family: cursive;
+    font-weight: 400;
+    position: relative;
+    top: 45vh;
+    left: 45vw;
+}
+#Page2{
+    height: 100vh;
+    animation: Lights 1s infinite;
+}
+@keyframes Lights {
+    0%{ background-color: #ff00d4; }
+    20%{ background-color: #fbff00; }
+    40%{ background-color: #3c00ffe6; }
+    60%{ background-color: #00ff2a; }
+    80%{ background-color: #ff1900; }
+    100%{ background-color: #ff00d4; }
+}
