@@ -35,3 +35,26 @@ Btn.addEventListener('click',() =>{
         TqBtn.style.display = 'block';
     },16000);
 });
+//
+function ShowPage1(){
+    document.getElementById('Wish-Container').style.display = 'none';
+    document.getElementById('Page1').style.display = 'block';
+}
+function ShowPage2(){
+    document.getElementById('Page1').style.display = 'none';
+    document.getElementById('Page2').style.display = 'block';
+}
+//
+const LitBtn = document.getElementById('Light-Btn');
+TqBtn.addEventListener('click',() =>{
+    setTimeout(() =>{
+        LitBtn.style.display = 'block';
+    },5000);
+});
+//
+const LitsBtn = document.getElementById('Let-Btn');
+LitBtn.addEventListener('click',() =>{
+    setTimeout(() =>{
+        LitsBtn.style.display = 'block';
+    },5000);
+});
