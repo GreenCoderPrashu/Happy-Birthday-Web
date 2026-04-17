@@ -106,3 +106,127 @@ body{
     80%{ background-color: #ff1900; }
     100%{ background-color: #ff00d4; }
 }
+#Let-Btn{
+    color: #ffff;
+    background-color: #000000;
+    border-radius: 8px ;
+    box-shadow: 0 0 10px #000;
+    box-shadow: 0 0 20px #000;
+    padding: 30px;
+    font-family: cursive;
+    font-weight: 400;
+    position: relative;
+    top: 45vh;
+    left: 45vw;
+}
+.Bulbs{
+    display: flex;
+    width: 100vw;
+    justify-content: space-around;
+}
+.Bulb-Container{
+    display: inline-block;
+    position: relative;
+}
+#Page3{
+    height: 100vh;
+
+}
+#Wt-Btn{
+    color: #ffff;
+    background-color: #000000;
+    border-radius: 8px ;
+    box-shadow: 0 0 10px #000;
+    box-shadow: 0 0 20px #000;
+    padding: 30px;
+    font-family: cursive;
+    font-weight: 400;
+    position: relative;
+    top: 65vh;
+    left: 45vw;
+}
+#Cake{
+    height: 300px;
+    width: 300px;
+    display: none;
+    position: fixed;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);;
+}
+.balloon {
+    position: absolute;
+    height: 250px;
+    width: 150px;
+    z-index: 1;
+    animation: balloon 3s alternate-reverse infinite;
+}
+@keyframes balloon{
+    100%{
+        transform: rotate(40deg);
+    }
+}
+.pic{
+    height: 600px;
+    width: 400px;
+    border-radius: 40px;
+    box-shadow: 0 0 10px #000;
+    box-shadow: 0 0 20px #000;
+    box-shadow: 0 0 30px #000;
+    filter: brightness(1);
+}
+.Img-Contatiner{
+    padding: 30px;
+    margin: 30px;
+    position: relative;
+    display: flex;
+}
+.Text-Contatiner{
+    padding: 30px;
+    margin: 30px;
+    height: 500px;
+    width: 900px;
+}
+.Text{
+    font-size: 30px;
+    text-align: center;
+}
+.Cake-Sentance{
+    font-size: 80px;
+    text-align: center;
+    position: relative;
+    top: 65vh;
+    color: #ff0000;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#Up-Btn{
+    text-align: center;
+    font-size: 30px;
+    position: relative;
+    top: 39vh;
+    font-family: cursive;
+    font-weight: 500;
+}
+#Next{
+    border-radius: 20px;
+    color: #ff0000;
+    box-shadow: 0 0 10px #000000;
+    box-shadow: 0 0 20px #000000;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 35px;
+    margin: 40px;
+    text-align: center;
+    text-decoration: none;
+}
+#Next:hover{
+    box-shadow: 0 0 10px #000000;
+    box-shadow: 0 0 20px #000000;
+    box-shadow: 0 0 30px #000000;
+    box-shadow: 0 0 40px #000000;
+}
+h1{
+    text-align: center;
+    padding: 20px;
+    font-size: 100px;
+}
