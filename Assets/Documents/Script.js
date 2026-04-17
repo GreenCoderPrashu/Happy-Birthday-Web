@@ -58,3 +58,38 @@ LitBtn.addEventListener('click',() =>{
         LitsBtn.style.display = 'block';
     },5000);
 });
+//
+const WtBtn = document.getElementById('Wt-Btn');
+LitsBtn.addEventListener('click',() =>{
+    setTimeout(() =>{
+        WtBtn.style.display = 'block';
+    },12000);
+});
+function ShowPage3(){
+    document.getElementById('Page2').style.display = 'none';
+    document.getElementById('Page3').style.display = 'block';
+}
+function ShowPage4(){
+    document.getElementById('Page3').style.display = 'none';
+    document.getElementById('Page4').style.display = 'inline-block ';
+}
+function ShowPage(){
+    document.getElementById('Memories').style.display = 'none';
+    document.getElementById('End').style.display = 'block ';
+}
+const upbtn = document.getElementById('Up-Btn');
+const Next = document.getElementById('Next');
+LitsBtn.addEventListener('click',() =>{
+    setTimeout(() =>{
+        upbtn.style.display = 'block';
+    },12000);
+});
+WtBtn.addEventListener('click',() =>{
+    setTimeout(() =>{
+        Next.style.display = 'block';
+    },50000);
+});
+
+function ShowCake(){
+    document.getElementById('Cake').style.display = 'block';
+}
