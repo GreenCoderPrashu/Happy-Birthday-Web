@@ -87,7 +87,7 @@ LitsBtn.addEventListener('click',() =>{
 WtBtn.addEventListener('click',() =>{
     setTimeout(() =>{
         Next.style.display = 'block';
-    },50000);
+    },25000);
 });
 
 function ShowCake(){
@@ -106,3 +106,14 @@ typeBtn1.addEventListener('click',() => {
         typewrite();
     }
 });
+function typewrite(){
+    if(i<passage1.length){
+        typing1.innerHTML += passage1.charAt(i);
+        i++;
+        setTimeout(typewrite,60);
+    }else{
+    write1 = false;
+    j=0;
+    type1=""
+}
+}
