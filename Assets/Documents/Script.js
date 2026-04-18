@@ -1,4 +1,4 @@
-// Welcome Page...
+//
 const typing = document.getElementById('typing');
 const typeBtn= document.getElementById('Btn');
 const Song= document.getElementById('Song');
@@ -24,75 +24,6 @@ function typewriter(){
     type=""
 }
 }
-//  Welcome Page Functions...
-function Show() {
-    document.getElementById('Welcome').style.display = 'none';
-    document.getElementById('Wish-Container').style.display = 'block';
-}
-const TqBtn = document.getElementById('Tq-Btn');
-Btn.addEventListener('click',() =>{
-    setTimeout(() =>{
-        TqBtn.style.display = 'block';
-    },16000);
-});
-//
-function ShowPage1(){
-    document.getElementById('Wish-Container').style.display = 'none';
-    document.getElementById('Page1').style.display = 'block';
-}
-function ShowPage2(){
-    document.getElementById('Page1').style.display = 'none';
-    document.getElementById('Page2').style.display = 'block';
-}
-//
-const LitBtn = document.getElementById('Light-Btn');
-TqBtn.addEventListener('click',() =>{
-    setTimeout(() =>{
-        LitBtn.style.display = 'block';
-    },5000);
-});
-//
-const LitsBtn = document.getElementById('Let-Btn');
-LitBtn.addEventListener('click',() =>{
-    setTimeout(() =>{
-        LitsBtn.style.display = 'block';
-    },5000);
-});
-//
-const WtBtn = document.getElementById('Wt-Btn');
-LitsBtn.addEventListener('click',() =>{
-    setTimeout(() =>{
-        WtBtn.style.display = 'block';
-    },12000);
-});
-function ShowPage3(){
-    document.getElementById('Page2').style.display = 'none';
-    document.getElementById('Page3').style.display = 'block';
-}
-function ShowPage4(){
-    document.getElementById('Page3').style.display = 'none';
-    document.getElementById('Page4').style.display = 'inline-block ';
-}
-function ShowPage(){
-    document.getElementById('Memories').style.display = 'none';
-    document.getElementById('End').style.display = 'block ';
-}
-const upbtn = document.getElementById('Up-Btn');
-const Next = document.getElementById('Next');
-LitsBtn.addEventListener('click',() =>{
-    setTimeout(() =>{
-        upbtn.style.display = 'block';
-    },12000);
-});
-WtBtn.addEventListener('click',() =>{
-    setTimeout(() =>{
-        Next.style.display = 'block';
-    },25000);
-});
-
-function ShowCake(){
-    document.getElementById('Cake').style.display = 'block';
-}
 //
 const typing1 = document.getElementById('Text');
 const typeBtn1= document.getElementById('Wt-Btn');
@@ -116,4 +47,79 @@ function typewrite(){
     j=0;
     type1=""
 }
+}
+//
+const TqBtn = document.getElementById('Tq-Btn');
+const LitBtn = document.getElementById('Light-Btn');
+const LitsBtn = document.getElementById('Let-Btn');
+const WtBtn = document.getElementById('Wt-Btn');
+const upbtn = document.getElementById('Up-Btn');
+const Next = document.getElementById('Next');
+
+Btn.addEventListener('click',() =>{
+    setTimeout(() =>{
+        TqBtn.style.display = 'block';
+    },16000);
+});
+
+TqBtn.addEventListener('click',() =>{
+    setTimeout(() =>{
+        LitBtn.style.display = 'block';
+    },5000);
+});
+
+LitBtn.addEventListener('click',() =>{
+    setTimeout(() =>{
+        LitsBtn.style.display = 'block';
+    },5000);
+});
+
+LitsBtn.addEventListener('click',() =>{
+    setTimeout(() =>{
+        upbtn.style.display = 'block';
+    },12000);
+});
+
+WtBtn.addEventListener('click',() =>{
+    setTimeout(() =>{
+        Next.style.display = 'block';
+    },25000);
+});
+
+LitsBtn.addEventListener('click',() =>{
+    setTimeout(() =>{
+        WtBtn.style.display = 'block';
+    },12000);
+});
+//
+function Show() {
+    document.getElementById('Welcome').style.display = 'none';
+    document.getElementById('Wish-Container').style.display = 'block';
+}
+
+function ShowPage1(){
+    document.getElementById('Wish-Container').style.display = 'none';
+    document.getElementById('Page1').style.display = 'block';
+}
+
+function ShowPage2(){
+    document.getElementById('Page1').style.display = 'none';
+    document.getElementById('Page2').style.display = 'block';
+}
+
+function ShowPage3(){
+    document.getElementById('Page2').style.display = 'none';
+    document.getElementById('Page3').style.display = 'block';
+}
+function ShowPage4(){
+    document.getElementById('Page3').style.display = 'none';
+    document.getElementById('Page4').style.display = 'inline-block ';
+}
+function ShowPage(){
+    document.getElementById('Memories').style.display = 'none';
+    document.getElementById('End').style.display = 'block ';
+}
+
+function ShowCake(){
+    document.getElementById('Cake').style.display = 'block';
 }
