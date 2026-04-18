@@ -93,3 +93,16 @@ WtBtn.addEventListener('click',() =>{
 function ShowCake(){
     document.getElementById('Cake').style.display = 'block';
 }
+//
+const typing1 = document.getElementById('Text');
+const typeBtn1= document.getElementById('Wt-Btn');
+const passage1 = "Happy birthday tom,today the world got bright the day you arrived in it. your ability to turn ordinary moments into memories is a rare gift that everyone around you feels. you don't just age, you upgrade, and watching that process is inspring. Happy Brithday once again Tom,go make 365 days look small compared to what you'll do with them."
+let type1=""
+let write1 = false;
+let j=0;
+typeBtn1.addEventListener('click',() => {
+    if(! write1){
+        write1 = true;
+        typewrite();
+    }
+});
