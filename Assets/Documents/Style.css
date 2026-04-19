@@ -230,3 +230,106 @@ h1{
     padding: 20px;
     font-size: 100px;
 }
+.Remember{
+    text-align: center;
+    font-size: 60px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#Start{
+    text-align: center;
+    padding-top: 10px;
+}
+#Start p{
+    text-align: center;
+    font-size: 30px;
+    font-family: cursive;
+}
+#Moments{
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 25px;
+    font-family: cursive;
+    box-shadow: 0 0 10px #000000;
+    box-shadow: 0 0 20px #000000;
+    font-weight: 400;
+}
+#pics{
+    border-radius: 20px;
+    box-shadow: 0 0 10px #000000;
+    box-shadow: 0 0 20px #000000;
+    box-shadow: 0 0 30px #000000;
+    margin: 10px;
+    padding: 10px;
+}
+.msg{
+    font-size: 300px;
+    text-align: center;
+    color: #ff1900;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow:0 0 10px #000000;
+    text-shadow:0 0 20px #000000;
+    margin-top: 70px;
+}
+.msg1{
+    font-size: 90px;
+    text-align: center;
+    font-family: cursive;
+    text-shadow:0 0 10px #000000;
+}
+.Seen{
+    font-size: 60px;
+    text-align: center;
+    padding: 20px;
+    margin: 40px;
+    border-radius: 40px;
+    left: 38vw;
+    position: relative;
+}
+.pic1{
+    height: 400px;
+    width: 300px;
+}
+.pic2{
+    height: 400px;
+    width: 600px;
+}
+.pic3{
+    height: 400px;
+    width: 300px;
+}
+.pic4{
+    height: 400px;
+    width: 600px;
+}
+.pic5{
+    height: 400px;
+    width: 300px;
+}
+.pic6{
+    height: 400px;
+    width: 300px;
+}
+.pic7{
+    height: 300px;
+    width: 600px;
+}
+.pic8{
+    height: 300px;
+    width: 600px;
+}
+.pic9{
+    height: 400px;
+    width: 900px;
+}
+.pic10{
+    height: 400px;
+    width: 300px;
+}
+.pic11{
+    height: 400px;
+    width: 600px;
+}
+.pic12{
+    height: 400px;
+    width: 600px;
+}
