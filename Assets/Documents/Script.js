@@ -123,3 +123,8 @@ function ShowPage(){
 function ShowCake(){
     document.getElementById('Cake').style.display = 'block';
 }
+function Moments(){
+    document.getElementById('Start').style.display = 'none';
+    document.getElementById('Memories').style.display = 'block ';
+    document.getElementById('Mp3').play();
+}
